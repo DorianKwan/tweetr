@@ -1,0 +1,21 @@
+.counter {
+  margin-left: 285px;
+}
+h2 {
+  border-bottom: 2px solid #111;
+  margin-top: 0px;
+}
+section {
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid #999;
+  left: 50px;
+  padding: 10px;
+  position: relative;
+  top: 40px;
+  width: 80%;
+
+}
+textarea {
+  width: 100%;
+}
