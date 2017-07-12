@@ -1,9 +1,12 @@
 .counter {
-  margin-left: 285px;
+  float: right;
 }
 h2 {
   border-bottom: 2px solid #111;
   margin-top: 0px;
+}
+.neg-counter {
+  color: red;
 }
 section {
   background-color: #eee;
