@@ -1,0 +1,69 @@
+article .box {
+  background-color: white;
+  height: 65px;
+  left: -10px;
+  position: relative;
+  top: -10px;
+  width: 398px;
+}
+article div {
+  border-bottom: 1px solid #d0d0d0
+}
+article:hover .icons {
+  color: #429ef4;
+  display: inline-block;
+}
+article .icons:vistied {
+  color: #429ef4;
+}
+.counter {
+  float: right;
+}
+div p {
+  font-size: 12px;
+  left: 10px;
+  position: relative;
+  top: 15px ;
+  width: 95%;
+  word-break: break-all;
+}
+footer .created-at {
+  bottom: 0px;
+  font-size: 8px;
+  position: relative;
+}
+header .profile-photo {
+  border-radius: 5px;
+  left: 0px;
+  length: 50px;
+  position: relative;
+  top: 0px;
+  width: 50px;
+}
+header .name {
+  font-size: 1em;
+  font-weight: bold;
+  position: relative;
+  top: -35px;
+}
+header .handle {
+  float: right;
+  font-size: 0.5em;
+  position: relative;
+  top: 40px;
+}
+article .icons {
+  float: right;
+  font-size: 0.8em;
+  display: none;
+}
+section .tweet-box {
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid #999;
+  left: 50px;
+  padding: 10px;
+  position: relative;
+  top: 40px;
+  width: 80%;
+}
