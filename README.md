@@ -1,17 +1,18 @@
-# Tweeter Project
+# LHL Tweeter Project
 
 Tweeter is a simple, single-page Twitter clone.
 
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express and MongoDB back-end skills.
+This project was originally forked from Lighthouse Labs Head of Education. At the time of the fork, the page was only a bird image and a header of "Tweeter". Since then I have used my front-end and back-end skills to create a simple and easy to use twitter clone. I used HTML, CSS, JS, jQuery, and AJAX on the front-end. Using Node, Express and MongoDB for the back-end magic.
 
-## Getting Started
+![Screenshot1](https://raw.github.com/DorianKwan/tweetr/master/public/images/screenshots/Screenshot1.png)
+![Screenshot2](https://raw.github.com/DorianKwan/tweetr/master/public/images/screenshots/Screenshot2.png)
+![Screenshot3](https://raw.github.com/DorianKwan/tweetr/master/public/images/screenshots/Screenshot3.png)
 
-1. Fork this repository, then clone your fork of this repository.
-2. Install dependencies using the `npm install` command.
-3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
-4. Go to <http://localhost:8080/> in your browser.
 
 ## Dependencies
-
+- Body Parser
+- MongoDB
+- Chance
+- Md5
 - Express
 - Node 5.10.x or above
