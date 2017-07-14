@@ -1,0 +1,152 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* Global layout stuff */
+body {
+  background: #eee;
+  color: #244751;
+  font-family: 'Raleway', sans-serif;
+  position: relative; }
+
+.container {
+  background-color: white;
+  position: relative;
+  top: 80px;
+  padding: 0 0 100px 0;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto; }
+
+nav .compose {
+  background: #eee;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #00a087;
+  float: right;
+  font-size: 1.75em;
+  position: relative;
+  top: 7.5px;
+  line-height: 2.0; }
+  nav .compose .compose:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.8; }
+
+#nav-bar {
+  background: #00a087;
+  color: #e8fdff;
+  height: 80px;
+  padding: 0 2.0em 0 2.0em;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1; }
+  #nav-bar .header {
+    float: left;
+    font-size: 2.0em;
+    height: auto;
+    line-height: 2.5;
+    padding-left: 10px;
+    position: relative; }
+  #nav-bar .logo {
+    float: left;
+    height: 80px;
+    width: 80px; }
+
+.compose-tweet form input {
+  background: #eee;
+  border-color: #00a087;
+  border-radius: 5px;
+  color: #00a087;
+  position: relative;
+  top: 5px; }
+  .compose-tweet form input:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
+
+.compose-tweet form textarea {
+  width: 100%; }
+
+main .compose-tweet {
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid #999;
+  display: none;
+  left: 50px;
+  padding: 10px;
+  position: relative;
+  top: 40px;
+  width: 80%; }
+  main .compose-tweet h2 {
+    border-bottom: 2px solid #111;
+    margin-top: 0px; }
+
+article .box {
+  background-color: white;
+  height: 65px;
+  left: -10px;
+  position: relative;
+  top: -10px;
+  width: 398px; }
+
+article div {
+  border-bottom: 1px solid #d0d0d0; }
+
+article .icons {
+  float: right;
+  font-size: 0.8em;
+  display: none; }
+
+article:hover .icons {
+  color: blue;
+  display: inline-block; }
+
+article .icons:visited {
+  color: #429ef4; }
+
+.counter {
+  float: right; }
+
+div p {
+  font-size: 12px;
+  left: 10px;
+  position: relative;
+  top: 15px;
+  width: 95%;
+  word-break: break-all; }
+
+footer .created-at {
+  bottom: 0px;
+  font-size: 8px;
+  position: relative; }
+
+header .profile-photo {
+  border-radius: 5px;
+  left: 0px;
+  length: 50px;
+  position: relative;
+  top: 0px;
+  width: 50px; }
+
+header .name {
+  font-size: 1em;
+  font-weight: bold;
+  position: relative;
+  top: -35px; }
+
+header .handle {
+  float: right;
+  font-size: 0.5em;
+  position: relative;
+  top: 40px; }
+
+section .tweet-box {
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid #999;
+  left: 50px;
+  padding: 10px;
+  position: relative;
+  top: 40px;
+  width: 80%; }

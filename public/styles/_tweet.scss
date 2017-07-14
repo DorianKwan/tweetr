@@ -1,0 +1,73 @@
+article {
+  .box {
+    background-color: white;
+    height: 65px;
+    left: -10px;
+    position: relative;
+    top: -10px;
+    width: 398px;
+  }
+  div {
+    border-bottom: 1px solid #d0d0d0
+  }
+  .icons {
+    float: right;
+    font-size: 0.8em;
+    display: none;
+  }
+  &:hover .icons {
+    color: blue;
+    display: inline-block;
+  }
+  .icons:visited {
+    color: #429ef4;
+  }
+}
+.counter {
+  float: right;
+}
+div p {
+  font-size: 12px;
+  left: 10px;
+  position: relative;
+  top: 15px ;
+  width: 95%;
+  word-break: break-all;
+}
+footer .created-at {
+  bottom: 0px;
+  font-size: 8px;
+  position: relative;
+}
+header {
+  .profile-photo {
+    border-radius: 5px;
+    left: 0px;
+    length: 50px;
+    position: relative;
+    top: 0px;
+    width: 50px;
+  }
+  .name {
+    font-size: 1em;
+    font-weight: bold;
+    position: relative;
+    top: -35px;
+  }
+  .handle {
+    float: right;
+    font-size: 0.5em;
+    position: relative;
+    top: 40px;
+  }
+}
+section .tweet-box {
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid #999;
+  left: 50px;
+  padding: 10px;
+  position: relative;
+  top: 40px;
+  width: 80%;
+}

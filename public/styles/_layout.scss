@@ -1,8 +1,3 @@
-/*
- * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
- * https://css-tricks.com/international-box-sizing-awareness-day/
- * Do not modify these two selectors, please
- */
 html {
   box-sizing: border-box;
 }
@@ -10,9 +5,7 @@ html {
   box-sizing: inherit;
 }
 
-/*
- * Global layout stuff
- */
+/* Global layout stuff */
 
 body {
   background: #eee;
@@ -29,8 +22,3 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */

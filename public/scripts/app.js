@@ -102,6 +102,10 @@ $().ready(function() {
     }
   }
 
+  // function likeTweet(tweetData) {
+  //   const
+  // }
+
   loadTweets();
 
   $('.js-tweet-form').on('submit', handleNewTweet);

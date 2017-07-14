@@ -20,8 +20,9 @@ Once a tweet is made, the users name, avatar, handle, time counter and tweet wil
 
 ## Dependencies
 - Body Parser
-- MongoDB
 - Chance
-- Md5
 - Express
+- MongoDB
+- Md5
 - Node 5.10.x or above
+- Node-Sass
