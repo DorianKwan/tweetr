@@ -30,7 +30,7 @@ div p {
   font-size: 12px;
   left: 10px;
   position: relative;
-  top: 15px ;
+  top: 25px ;
   width: 95%;
   word-break: break-all;
 }
@@ -52,13 +52,12 @@ header {
     font-size: 1em;
     font-weight: bold;
     position: relative;
-    top: -35px;
+    top: -5px;
   }
   .handle {
     float: right;
     font-size: 0.5em;
     position: relative;
-    top: 40px;
   }
 }
 section .tweet-box {
@@ -70,4 +69,48 @@ section .tweet-box {
   position: relative;
   top: 40px;
   width: 80%;
+}
+
+@media (min-width: 1100px) {
+  article {
+    .box {
+      height: 95px;
+      left: -10px;
+      position: relative;
+      top: -10px;
+      width: 555px;
+    }
+  }
+  section .tweet-box {
+    left: 120px;
+    width: 70%;
+    height: 45%;
+  }
+  header {
+    .profile-photo {
+      length: 100px;
+      width: 100px;
+    }
+    .name {
+      font-size: 2em;
+      top: -5px;
+    }
+    .handle {
+      font-size: 1em;
+      top: 0px;
+    }
+  }
+  .counter {
+    font-size: 1.5em;
+  }
+  div p {
+    font-size: 20px;
+    left: 20px;
+    top: 30px ;
+    width: 95%;
+  }
+  footer .created-at {
+    bottom: 0px;
+    font-size: 12px;
+  }
 }
