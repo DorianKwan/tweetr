@@ -2,7 +2,7 @@
 
 Tweeter is a simple, single-page Twitter clone.
 
-This project was originally forked from Lighthouse Labs Head of Education. At the time of the fork, the page was only a bird image and a header of "Tweeter". Since then I have used my front-end and back-end skills to create a simple and easy to use twitter clone. I used HTML, CSS, JS, jQuery, and AJAX on the front-end. Using Node, Express and MongoDB for the back-end magic.
+This project was originally forked from Lighthouse Labs Head of Education. At the time of the fork, the page was only a bird image and a header of "Tweeter". Since then I have used my front-end and back-end skills to create a simple, responsive and easy to use twitter clone. I used HTML, CSS, JS, jQuery, and AJAX on the front-end. Using Node, Express and MongoDB for the back-end magic.
 
 Below is the user page on load.
 ![Screenshot1](https://raw.github.com/DorianKwan/tweetr/master/public/images/screenshots/Screenshot1.png)

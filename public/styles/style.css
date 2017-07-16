@@ -20,7 +20,7 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   .container {
     width: 800px; } }
 
@@ -58,7 +58,7 @@ nav .compose {
     height: 80px;
     width: 80px; }
 
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   nav .compose {
     font-size: 1.75em;
     top: 7.5px; } }
@@ -90,7 +90,7 @@ main .compose-tweet {
     border-bottom: 2px solid #111;
     margin-top: 0px; }
 
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   main .compose-tweet {
     left: 120px;
     width: 70%; } }
@@ -163,7 +163,7 @@ section .tweet-box {
   top: 40px;
   width: 80%; }
 
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   article .box {
     height: 95px;
     left: -10px;
